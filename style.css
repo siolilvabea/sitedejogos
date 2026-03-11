@@ -1,0 +1,170 @@
+body {
+    font-family: viking;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ff0000;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+nav a {
+    color: #eaeaea;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: #000000;
+}
+
+.main-header {
+    background-color: #ff0000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #000000;
+}
+
+.capcom-header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #000000;
+}
+
+.newblood-header {
+    background-color: #141414;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #000000;
+}
+
+.netherrealstudios-header {
+    background-color: #231f20;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 4px solid #000000;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+.devilmaycry-card img {
+    border: 2px solid #ffffff;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ultrakill-card img {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+ .mortalkombat-card img {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+ }
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #111;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+section h2 {
+    color: #ffffff; 
+    margin-bottom: 40px; /* extra space to keep "Personagens" prominently above */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section h3 {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#personagens {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.personagem {
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+.personagem img {
+    border: 2px solid #ffffff; 
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.imagem-link {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.imagem-link img {
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.class-historia {
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 400px;
+    border-radius: 250px;
+    border: 1px solid #333;
+    text-align: center;
+}
+footer {
+    background-color: #ff0000;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 4px solid #000000;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #ffffff;
+}
